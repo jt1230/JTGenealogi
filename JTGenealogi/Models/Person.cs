@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace JTGenealogi.Model
+namespace JTGenealogi.Models
 {
     public class Person
     {

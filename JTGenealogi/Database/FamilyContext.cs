@@ -1,4 +1,4 @@
-﻿using JTGenealogi.Model;
+﻿using JTGenealogi.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
