@@ -29,7 +29,12 @@ namespace JTGenealogi
                 //}
 
                 //Skapa en person
-                var lpotter = PersonHelper.FindOrCreatePerson("Lily", "Potter");
+                Console.WriteLine("Enter a first name of a person: ");
+                var firstName = Console.ReadLine();
+                Console.WriteLine("Enter a last name of a person: ");
+                var lastName = Console.ReadLine();
+                var newPerson = PersonHelper.FindOrCreatePerson(firstName, lastName);
+
             }
             
         }

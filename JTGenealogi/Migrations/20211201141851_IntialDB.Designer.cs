@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JTGenealogi.Migrations
 {
     [DbContext(typeof(FamilyContext))]
-    [Migration("20211129201545_IntialDBCreation")]
-    partial class IntialDBCreation
+    [Migration("20211201141851_IntialDB")]
+    partial class IntialDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace JTGenealogi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("JTGenealogi.Model.Person", b =>
+            modelBuilder.Entity("JTGenealogi.Models.Person", b =>
                 {
                     b.Property<int>("PersonID")
                         .ValueGeneratedOnAdd()

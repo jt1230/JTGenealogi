@@ -10,7 +10,7 @@ namespace JTGenealogi.Database
 {
     public class FamilyContext:DbContext
     {
-        private const string DatabaseName = "FamilyTree";
+        private const string DatabaseName = "JTGenealogi";
         public DbSet<Person> People { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

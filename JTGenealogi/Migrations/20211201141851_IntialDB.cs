@@ -4,7 +4,7 @@
 
 namespace JTGenealogi.Migrations
 {
-    public partial class IntialDBCreation : Migration
+    public partial class IntialDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
